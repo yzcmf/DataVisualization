@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+@import "modal";
+
+.row {
+  height: 16px;
+  div {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+
+    &.grass {
+      background-image: url(/images/grass.png);
+    }
+
+    &.wall {
+      background-image: url(/images/ground.png);
+    }
+
+    &.player.up {
+      background: url(/images/player-up.png) 0 0 / 100% 83% no-repeat, url(/images/grass.png);
+    }
+    &.player.down {
+      background: url(/images/player-down.png) 0 0 / 100% 83% no-repeat, url(/images/grass.png);
+    }
+    &.player.left {
+      background: url(/images/player-left.png) 0 0 / 100% 83% no-repeat, url(/images/grass.png);
+    }
+    &.player.right {
+      background: url(/images/player-right.png) 0 0 / 100% 83% no-repeat, url(/images/grass.png);
+    }
+
+    &.enemy {
+      background-image: url(/images/enemy.png);
+    }
+
+    &.boss {
+      background-image: url(/images/boss.png);
+    }
+
+    &.health {
+      background-image: url(/images/health.png);
+    }
+
+    &.weapon {
+      background-image: url(/images/weapon.png);
+    }
+
+    &.teleport {
+      background-image: url(/images/teleport.png);
+    }
+
+    &.darkness {
+      background: #000;
+    }
+  }
+}
+.elements {
+  padding-bottom: 10px;
+  > div {
+    display: inline;
+    margin-right: 10px;
+  }
+}
+@import "statusBar";
