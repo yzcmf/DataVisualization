@@ -1,0 +1,13 @@
+@import '_variables.scss';
+
+#field {
+    background: $dark;
+    border: solid black 1px;
+    width: $field-side;
+    height: $field-side;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

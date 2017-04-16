@@ -1,0 +1,11 @@
+@import '_field.scss';
+@import '_person.scss';
+@import '_variables.scss';
+
+/* Body Styling */
+body {
+    background-color: $dark;
+    color: $light;
+    text-align: center;
+    overflow-x: hidden;
+}

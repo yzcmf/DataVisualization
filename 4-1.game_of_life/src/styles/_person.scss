@@ -1,0 +1,12 @@
+@import '_variables.scss'; //Styling for person
+
+.person {
+    border: 1px solid $dark;
+    height: $person-side;
+    width: $person-side;
+    background: $dead;
+}
+
+.person.alive {
+    background: $alive;
+}
