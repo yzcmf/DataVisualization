@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #C23B22;
+}
+
+.textEntry, .textPreview {
+    text-align: left;
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius:10px;
+    height: 300px;
+    box-shadow: 3px 3px 15px;
+    background-color: 	#abcdeF;
+    border-color: #555555;
+    overflow: scroll;
+}
+
+footer, footer a {
+    display: block;
+    clear: both;
+    padding: 0 2%;
+
+}
